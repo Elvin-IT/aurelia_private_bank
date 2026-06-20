@@ -1,0 +1,6 @@
+{
+  "name": "Aurelia Private Bank",
+  "description": "Discreet, highly personalised private banking and wealth management for global individuals and family offices.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
