@@ -58,17 +58,11 @@ export default function Header({ currentPage, onNavigate, onOpenLogin }: HeaderP
           onClick={() => handleNavItemClick("home")}
           className="flex items-center gap-3 group text-left focus:outline-none"
         >
-          <div className="relative w-8 h-8 flex items-center justify-center border border-gold-500 rounded-none bg-[#0a0a0a] overflow-hidden transition-all duration-300">
-            <span className="font-serif text-lg text-gold-500 font-normal leading-none select-none">A</span>
-          </div>
-          <div className="flex flex-col">
-            <span className="font-serif text-sm tracking-[0.3em] text-white font-light leading-none">
-              AURELIA
-            </span>
-            <span className="text-[7.5px] uppercase tracking-[0.25em] text-gold-500/80 font-mono mt-1">
-              Private Bank
-            </span>
-          </div>
+          <img
+            src="https://i.ibb.co/fzhGPdh4/logo-Artboard-1-copy-27.png"
+            alt="Aurelia Private Bank logo"
+            className="h-10 w-auto max-w-[180px] object-contain"
+          />
         </button>
 
         {/* Desktop Navigation */}

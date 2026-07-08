@@ -19,17 +19,11 @@ export default function Footer({ onNavigate }: FooterProps) {
         {/* Brand & Ethos */}
         <div className="flex flex-col gap-6">
           <div className="flex items-center gap-3">
-            <div className="w-8 h-8 flex items-center justify-center border border-gold-500 rounded-none bg-[#0a0a0a]">
-              <span className="font-serif text-sm text-gold-500 font-normal">A</span>
-            </div>
-            <div className="flex flex-col">
-              <span className="font-serif text-sm tracking-[0.3em] text-white font-light leading-none">
-                AURELIA
-              </span>
-              <span className="text-[7.5px] uppercase tracking-[0.25em] text-gold-500/80 font-mono mt-0.5">
-                Private Bank
-              </span>
-            </div>
+            <img
+              src="https://i.ibb.co/2YjkRsGf/logoweb-logo.png"
+              alt="Aurelia Private Bank logo"
+              className="h-10 w-auto max-w-[180px] object-contain"
+            />
           </div>
           
           <p className="text-xs text-charcoal-400 leading-relaxed font-sans mt-2">
