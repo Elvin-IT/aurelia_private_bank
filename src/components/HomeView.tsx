@@ -219,7 +219,101 @@ export default function HomeView({
         </div>
       </section>
 
-      {/* ================= 5. INSIGHTS TEASER SECTION ================= */}
+      {/* ================= 5. TESTIMONIALS SECTION ================= */}
+      <section
+        id="testimonials-section"
+        className="py-24 md:py-32 bg-[#0a0a0a] text-white border-b border-white/10"
+      >
+        <div className="max-w-7xl mx-auto px-6 md:px-12 text-left">
+          <div className="flex flex-col gap-3 mb-16">
+            <span className="text-[9px] uppercase tracking-[0.4em] text-gold-500 block">
+              Client Recognition
+            </span>
+            <h2 className="font-serif text-3xl md:text-4xl text-white font-normal">
+              Trusted by those who matter most.
+            </h2>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Testimonial 1 */}
+            <div className="flex flex-col gap-6 group">
+              <div className="relative overflow-hidden rounded-none border border-white/10 hover:border-gold-500/30 transition-all duration-300">
+                <img
+                  src="https://i.ibb.co/8405tk0x/client-3.jpg"
+                  alt="Testimonial Client 1"
+                  className="w-full h-64 object-cover filter brightness-95 group-hover:brightness-100 transition-all"
+                  referrerPolicy="no-referrer"
+                />
+              </div>
+              <div className="flex flex-col gap-3">
+                <p className="text-sm text-white/80 leading-relaxed italic font-light">
+                  &ldquo;Aurelia's discretion and sophistication in managing our multi-generational wealth has been invaluable. They understand nuance in a way most institutions simply cannot.&rdquo;
+                </p>
+                <div>
+                  <p className="text-xs uppercase tracking-widest font-semibold text-gold-400">
+                    Veronica Phiri
+                  </p>
+                  <p className="text-[10px] text-white/50 font-mono mt-1">
+                    Family Office Director
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Testimonial 2 */}
+            <div className="flex flex-col gap-6 group">
+              <div className="relative overflow-hidden rounded-none border border-white/10 hover:border-gold-500/30 transition-all duration-300">
+                <img
+                  src="https://i.ibb.co/1Y1GHx4m/client-2.jpg"
+                  alt="Testimonial Client 2"
+                  className="w-full h-64 object-cover filter brightness-95 group-hover:brightness-100 transition-all"
+                  referrerPolicy="no-referrer"
+                />
+              </div>
+              <div className="flex flex-col gap-3">
+                <p className="text-sm text-white/80 leading-relaxed italic font-light">
+                  &ldquo;The bespoke approach to international tax strategy and wealth preservation has exceeded our expectations. True stewardship across generations.&rdquo;
+                </p>
+                <div>
+                  <p className="text-xs uppercase tracking-widest font-semibold text-gold-400">
+                    Peter Liwonde
+                  </p>
+                  <p className="text-[10px] text-white/50 font-mono mt-1">
+                    Entrepreneur & Investor
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Testimonial 3 */}
+            <div className="flex flex-col gap-6 group">
+              <div className="relative overflow-hidden rounded-none border border-white/10 hover:border-gold-500/30 transition-all duration-300">
+                <img
+                  src="https://i.ibb.co/Lz64W0zj/client-1.jpg"
+                  alt="Testimonial Client 3"
+                  className="w-full h-64 object-cover filter brightness-95 group-hover:brightness-100 transition-all"
+                  referrerPolicy="no-referrer"
+                />
+              </div>
+              <div className="flex flex-col gap-3">
+                <p className="text-sm text-white/80 leading-relaxed italic font-light">
+                  &ldquo;From private banking infrastructure to custom lending structures, Aurelia combines sophistication with accessibility. A remarkable partner for complex estates.&rdquo;
+                </p>
+                <div>
+                  <p className="text-xs uppercase tracking-widest font-semibold text-gold-400">
+                    James Whitmore
+                  </p>
+                  <p className="text-[10px] text-white/50 font-mono mt-1">
+                    Corporate Executive & Philanthropist
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ================= 6. INSIGHTS TEASER SECTION ================= */}
       <section
         id="insights-teaser-section"
         className="py-24 md:py-32 bg-[#121212] text-white border-b border-white/10"
@@ -279,7 +373,7 @@ export default function HomeView({
         </div>
       </section>
 
-      {/* ================= 6. GLOBAL REACH SECTION ================= */}
+      {/* ================= 7. GLOBAL REACH SECTION ================= */}
       <section
         id="global-reach-section"
         className="py-24 md:py-32 bg-ivory text-[#121212] border-b border-charcoal-200/40"
@@ -332,7 +426,7 @@ export default function HomeView({
         </div>
       </section>
 
-      {/* ================= 7. FINAL CALL TO ACTION SECTION ================= */}
+      {/* ================= 8. FINAL CALL TO ACTION SECTION ================= */}
       <section
         id="final-cta-section"
         className="py-28 md:py-36 bg-[#0a0a0a] text-gold-100 border-b border-white/10 relative"
