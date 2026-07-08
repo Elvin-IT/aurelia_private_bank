@@ -172,7 +172,7 @@ export const offices: OfficeLocation[] = [
     hours: "08:30 - 17:30 (CET)",
     languages: ["German", "English", "French", "Italian"],
     details: "Our global headquarters, delivering pristine Swiss private banking heritage and comprehensive discretionary wealth stewardship overlooking the beautiful Limmat riverfront.",
-    image: "https://images.unsplash.com/photo-1527668752968-14dc70a27c95?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     city: "London",
@@ -205,6 +205,6 @@ export const offices: OfficeLocation[] = [
     hours: "09:00 - 18:00 (CET)",
     languages: ["Dutch", "English"],
     details: "Strategic hub for European financial services, offering multi-currency advisory, corporate governance, and innovative wealth solutions across the continent.",
-    image: "https://images.unsplash.com/photo-1549388604-817d15aa0110?auto=format&fit=crop&w=800"
+    image: "https://images.unsplash.com/photo-1464938050520-ef2270bb8ce8?q=80&w=1174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   }
 ];
