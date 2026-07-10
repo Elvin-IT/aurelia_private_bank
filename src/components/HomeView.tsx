@@ -34,34 +34,49 @@ export default function HomeView({
         </div>
 
         <div className="relative z-20 max-w-7xl mx-auto px-6 md:px-12 w-full py-20 text-left">
-          <div className="max-w-xl flex flex-col gap-6">
-            <div className="w-12 h-[1.5px] bg-gold-500"></div>
-            
-            <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl leading-[1.15] font-light tracking-tight text-white">
-              Private banking for <br/>
-              <span className="text-gold-500 font-serif italic text-4xl md:text-5.5xl lg:text-6.5xl">quiet achievers.</span>
-            </h1>
-            
-            <p className="text-white/60 text-sm md:text-base leading-relaxed font-light font-sans max-w-lg mt-2">
-              Aurelia Private Bank provides discreet, highly personalised banking and wealth management for individuals and families whose ambitions and responsibilities span continents.
-            </p>
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:items-center">
+            <div className="lg:col-span-6 max-w-xl">
+              <div className="flex flex-col gap-6">
+                <div className="w-12 h-[1.5px] bg-gold-500"></div>
 
-            <div className="flex items-center gap-8 pt-4">
-              <button
-                id="hero-cta-consultation"
-                onClick={onRequestConsultation}
-                className="px-8 py-4 bg-gold-500 text-charcoal-900 text-xs uppercase tracking-widest font-semibold hover:bg-white hover:text-black transition-all rounded-none"
-              >
-                Request Consultation
-              </button>
-              
-              <button
-                id="hero-cta-login"
-                onClick={onOpenLogin}
-                className="text-xs uppercase tracking-widest text-white/50 hover:text-white border-b border-gold-500/30 hover:border-gold-500 pb-1 transition-all font-mono"
-              >
-                Client Portal
-              </button>
+                <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl leading-[1.15] font-light tracking-tight text-white">
+                  Private banking for <br/>
+                  <span className="text-gold-500 font-serif italic text-4xl md:text-5.5xl lg:text-6.5xl">quiet achievers.</span>
+                </h1>
+
+                <p className="text-white/60 text-sm md:text-base leading-relaxed font-light font-sans max-w-lg mt-2">
+                  Aurelia Private Bank provides discreet, highly personalised banking and wealth management for individuals and families whose ambitions and responsibilities span continents.
+                </p>
+
+                <div className="flex items-center gap-8 pt-4">
+                  <button
+                    id="hero-cta-consultation"
+                    onClick={onRequestConsultation}
+                    className="px-8 py-4 bg-gold-500 text-charcoal-900 text-xs uppercase tracking-widest font-semibold hover:bg-white hover:text-black transition-all rounded-none"
+                  >
+                    Request Consultation
+                  </button>
+
+                  <button
+                    id="hero-cta-login"
+                    onClick={onOpenLogin}
+                    className="text-xs uppercase tracking-widest text-white/50 hover:text-white border-b border-gold-500/30 hover:border-gold-500 pb-1 transition-all font-mono"
+                  >
+                    Client Portal
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div className="lg:col-span-6 flex justify-start lg:justify-end">
+              <div className="w-full flex justify-center lg:justify-end">
+                  <img
+                    src="https://i.ibb.co/RT7qGkfq/building.png"
+                    alt="building"
+                    className="w-full max-w-[580px] md:max-w-[460px] lg:max-w-[680px] h-auto object-contain select-none"
+                    loading="eager"
+                  />
+              </div>
             </div>
           </div>
         </div>
