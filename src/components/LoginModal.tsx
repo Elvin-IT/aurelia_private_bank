@@ -142,17 +142,15 @@ export default function LoginModal({ isOpen, onClose }: LoginModalProps) {
             {/* Branding Sidebar Info */}
             <div className="lg:col-span-5 flex flex-col gap-6 pr-0 lg:pr-8 lg:border-r border-neutral-800 text-left">
               <div className="flex items-center gap-3">
-                <div className="w-8 h-8 flex items-center justify-center border border-[#C5A059]/40 rounded-none bg-black">
-                  <span className="font-serif text-base text-[#C5A059] font-medium">A</span>
-                </div>
-                <div className="flex flex-col">
-                  <span className="font-serif text-lg tracking-widest text-[#gold-100] font-normal leading-none text-white">
-                    AURELIA
-                  </span>
-                  <span className="text-[7.5px] uppercase tracking-[0.25em] text-[#C5A059]/80 font-mono mt-0.5">
-                    Private Bank
-                  </span>
-                </div>
+                <a href="https://ibb.co/1J9mBdFw" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center overflow-hidden rounded-none bg-black border-2 border-[#C5A059]/50 p-3 md:p-4 min-h-[72px] min-w-[72px] max-w-[220px] w-full">
+                  <img
+                    src="https://i.ibb.co/cXNrRC47/logoweb-logo.png"
+                    alt="logoweb-logo"
+                    border="0"
+                    className="w-full h-full object-contain"
+                  />
+                </a>
+               
               </div>
 
               <h3 className="font-serif text-xl md:text-2xl text-white leading-tight font-normal">
@@ -268,9 +266,14 @@ export default function LoginModal({ isOpen, onClose }: LoginModalProps) {
             {/* Dashboard Header */}
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-neutral-800">
               <div className="flex items-center gap-3">
-                <div className="w-10 h-10 flex items-center justify-center border border-[#C5A059]/40 rounded-none bg-black">
-                  <span className="font-serif text-lg text-[#C5A059] font-medium">A</span>
-                </div>
+                <a href="https://ibb.co/1J9mBdFw" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center overflow-hidden rounded-none bg-black border border-[#C5A059]/40 min-h-[48px] min-w-[48px] max-w-[140px] w-full">
+                  <img
+                    src="https://i.ibb.co/cXNrRC47/logoweb-logo.png"
+                    alt="logoweb-logo"
+                    border="0"
+                    className="w-full h-full object-contain"
+                  />
+                </a>
                 <div>
                   <div className="flex items-center gap-2">
                     <span className="font-serif text-xl tracking-wide text-white font-normal">

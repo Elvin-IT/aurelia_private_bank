@@ -59,8 +59,8 @@ export default function Header({ currentPage, onNavigate, onOpenLogin }: HeaderP
           className="flex items-center gap-3 group text-left focus:outline-none"
         >
           <img
-            src="https://i.ibb.co/fzhGPdh4/logo-Artboard-1-copy-27.png"
-            alt="Aurelia Private Bank logo"
+            src="https://i.ibb.co/cXNrRC47/logoweb-logo.png"
+            alt="logoweb-logo"
             className="h-10 w-auto max-w-[180px] object-contain"
           />
         </button>
