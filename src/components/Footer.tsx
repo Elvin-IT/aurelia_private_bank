@@ -167,7 +167,7 @@ export default function Footer({ onNavigate }: FooterProps) {
           </div>
           <div className="flex items-center gap-2.5">
             <span className="w-1.5 h-1.5 bg-[#C5A059]"></span>
-            <span className="text-[9px] uppercase tracking-widest text-white/40">Johannesburg</span>
+            <span className="text-[9px] uppercase tracking-widest text-white/40">Amsterdam</span>
           </div>
         </div>
         <div className="text-[9px] text-white/30 uppercase tracking-tight">
